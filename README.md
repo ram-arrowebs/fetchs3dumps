@@ -5,5 +5,5 @@ This module uses s3cmd cli to download daily backups for a date range
 
 Usage
 ```
-./fetch_dumps start_date*yyyy/mm/dd* end_date*yyyy/mm/dd*
+./fetch-s3-dumps start_date(yyyymmdd) end_date(yyyymmdd)
 ```
